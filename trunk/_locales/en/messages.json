@@ -1,0 +1,10 @@
+{
+    "extName": {
+        "message": "New Tab, New Window",
+        "description": "Extension name."
+    },
+    "extDescription": {
+        "message": "Open a new tab in a new window.",
+        "description": "Extension description."
+    }
+}

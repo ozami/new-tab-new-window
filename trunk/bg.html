@@ -1,0 +1,31 @@
+<html>
+  <script>
+
+chrome.tabs.onCreated.addListener(function(tab){
+    if (tab.url == "chrome://newtab/"){
+        return;
+    }
+    if (tab.url == "about:blank"){
+        return;
+    }
+    chrome.tabs.getAllInWindow(tab.windowId, function(tabs){
+        if (tabs.length <= 1) {
+            return;
+        }
+        if (tab.url == "") {
+            chrome.windows.create({url: "about:blank", incognito: tab.incognito}, function(newWindow){
+                chrome.tabs.move(tab.id, {windowId: newWindow.id, index: 0}, function(){
+                    chrome.tabs.getAllInWindow(newWindow.id, function(tabs){
+                        chrome.tabs.remove(tabs[1].id);
+                    });
+                });
+            });
+            return;
+        }
+        chrome.windows.create({url: tab.url, incognito: tab.incognito}, function(newWindow){
+            chrome.tabs.remove(tab.id);
+        });
+    });
+});
+  </script>
+</html>
