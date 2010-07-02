@@ -1,0 +1,10 @@
+{
+    "extName": {
+        "message": "New Tab, New Window",
+        "description": "拡張機能の名前"
+    },
+    "extDescription": {
+        "message": "新しいタブは新しいウィンドウに開きます。",
+        "description": "拡張機能の説明"
+    }
+}

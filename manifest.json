@@ -1,0 +1,10 @@
+{
+    "name": "__MSG_extName__",
+    "version": "1.0",
+    "description": "__MSG_extDescription__",
+    "background_page": "bg.html",
+    "permissions": [
+        "tabs"
+    ], 
+    "default_locale": "en"
+}
