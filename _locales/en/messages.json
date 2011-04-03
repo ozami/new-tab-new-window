@@ -6,5 +6,29 @@
     "extDescription": {
         "message": "Open a new tab in a new window.",
         "description": "Extension description."
+    },
+    "optionsTitle": {
+        "message": "New Tab, New Window Options"
+    },
+    "optionsNewWindowPosition": {
+        "message": "Position of new window"
+    },
+    "optionsNewWindowPositionDefaultLabel": {
+        "message": "Default"
+    },
+    "optionsNewWindowPositionParentLabel": {
+        "message": "Same to the parent window position"
+    },
+    "optionsNewWindowPositionNote": {
+        "message": "On Microsoft Windows, even if the parent window is maximized, new window will not be maximized."
+    },
+    "optionsTestButton": {
+        "message": "Open a new tab for test"
+    },
+    "optionsTestMessage": {
+        "message": "A new tab opened"
+    },
+    "optionsTestCloseButton": {
+        "message": "Close"
     }
 }
