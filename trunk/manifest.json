@@ -7,5 +7,9 @@
     "permissions": [
         "tabs"
     ], 
-    "default_locale": "en"
+    "default_locale": "en", 
+    "icons": {
+        "48": "img/icon48.png",
+        "128": "img/icon128.png"
+    }
 }
