@@ -6,5 +6,29 @@
     "extDescription": {
         "message": "新しいタブは新しいウィンドウに開きます。",
         "description": "拡張機能の説明"
+    },
+    "optionsTitle": {
+        "message": "New Tab, New Window の設定"
+    },
+    "optionsNewWindowPosition": {
+        "message": "新しいウィンドウを開く位置"
+    },
+    "optionsNewWindowPositionDefaultLabel": {
+        "message": "標準"
+    },
+    "optionsNewWindowPositionParentLabel": {
+        "message": "親ウィンドウと同じ位置"
+    },
+    "optionsNewWindowPositionNote": {
+        "message": "Microsoft Windows では親ウィンドウが最大化していても子ウィンドウは最大化しません。"
+    },
+    "optionsTestButton": {
+        "message": "テストで新しいタブを開く"
+    },
+    "optionsTestMessage": {
+        "message": "新しいタブが開きました"
+    },
+    "optionsTestCloseButton": {
+        "message": "閉じる"
     }
 }

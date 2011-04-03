@@ -1,4 +1,5 @@
 <html>
+  <script type="text/javascript" src="options.js"></script>
   <script>
 
 chrome.tabs.onCreated.addListener(function(tab){
@@ -12,20 +13,19 @@ chrome.tabs.onCreated.addListener(function(tab){
         if (tabs.length <= 1) {
             return;
         }
-        if (tab.url == "") {
-            chrome.windows.create({url: "about:blank", incognito: tab.incognito}, function(newWindow){
-                chrome.tabs.move(tab.id, {windowId: newWindow.id, index: 0}, function(){
-                    chrome.tabs.getAllInWindow(newWindow.id, function(tabs){
-                        chrome.tabs.remove(tabs[1].id);
-                    });
-                });
-            });
-            return;
-        }
-        chrome.windows.create({url: tab.url, incognito: tab.incognito}, function(newWindow){
-            chrome.tabs.remove(tab.id);
+        chrome.windows.get(tab.windowId, function(curWindow){
+            var createData = {
+                tabId: tab.id,
+                incognito: tab.incognito
+            };
+            if (getOption("newWindowsPosition")){
+                createData.top = Math.max(0, curWindow.top);
+                createData.left = Math.max(0, curWindow.left);
+            }
+            chrome.windows.create(createData);
         });
     });
 });
+
   </script>
 </html>

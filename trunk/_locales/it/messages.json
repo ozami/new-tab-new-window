@@ -6,5 +6,29 @@
     "extDescription": {
         "message": "Aprire una nuova scheda in una nuova finestra.",
         "description": "Extension description."
+    },
+    "optionsTitle": {
+        "message": "New Tab, New Window Opzioni"
+    },
+    "optionsNewWindowPosition": {
+        "message": "Posizione della nuova finestra"
+    },
+    "optionsNewWindowPositionDefaultLabel": {
+        "message": "Default"
+    },
+    "optionsNewWindowPositionParentLabel": {
+        "message": "Stessi alla posizione della finestra genitore"
+    },
+    "optionsNewWindowPositionNote": {
+        "message": "Su Microsoft Windows, anche se la finestra genitore è massimizzata, la finestra nuova non sarà massimizzata."
+    },
+    "optionsTestButton": {
+        "message": "Aprire una nuova scheda per collaudo"
+    },
+    "optionsTestMessage": {
+        "message": "Una nuova scheda si è aperta"
+    },
+    "optionsTestCloseButton": {
+        "message": "Chiudi"
     }
 }
