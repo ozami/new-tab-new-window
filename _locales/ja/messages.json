@@ -19,9 +19,6 @@
     "optionsNewWindowPositionParentLabel": {
         "message": "親ウィンドウと同じ位置"
     },
-    "optionsNewWindowPositionNote": {
-        "message": "Microsoft Windows では親ウィンドウが最大化していても子ウィンドウは最大化しません。"
-    },
     "optionsTestButton": {
         "message": "テストで新しいタブを開く"
     },

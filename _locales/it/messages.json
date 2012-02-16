@@ -19,9 +19,6 @@
     "optionsNewWindowPositionParentLabel": {
         "message": "Stessi alla posizione della finestra genitore"
     },
-    "optionsNewWindowPositionNote": {
-        "message": "Su Microsoft Windows, anche se la finestra genitore è massimizzata, la finestra nuova non sarà massimizzata."
-    },
     "optionsTestButton": {
         "message": "Aprire una nuova scheda per collaudo"
     },

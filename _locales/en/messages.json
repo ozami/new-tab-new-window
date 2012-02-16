@@ -19,9 +19,6 @@
     "optionsNewWindowPositionParentLabel": {
         "message": "Same to the parent window position"
     },
-    "optionsNewWindowPositionNote": {
-        "message": "On Microsoft Windows, even if the parent window is maximized, new window will not be maximized."
-    },
     "optionsTestButton": {
         "message": "Open a new tab for test"
     },
