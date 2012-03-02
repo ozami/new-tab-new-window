@@ -4,7 +4,7 @@
         "description": "Extension name."
     },
     "extDescription": {
-        "message": "Open a new tab in a new window.",
+        "message": "Open every new tab in a new window.",
         "description": "Extension description."
     },
     "optionsTitle": {
@@ -14,16 +14,16 @@
         "message": "Position of new window"
     },
     "optionsNewWindowPositionDefaultLabel": {
-        "message": "Default"
+        "message": "Default (cascade)"
     },
     "optionsNewWindowPositionParentLabel": {
-        "message": "Same to the parent window position"
+        "message": "Same as the parent window"
     },
     "optionsTestButton": {
-        "message": "Open a new tab for test"
+        "message": "Test"
     },
     "optionsTestMessage": {
-        "message": "A new tab opened"
+        "message": "New tab opened."
     },
     "optionsTestCloseButton": {
         "message": "Close"
