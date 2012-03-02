@@ -1,11 +1,9 @@
 {
     "extName": {
-        "message": "New Tab, New Window",
-        "description": "拡張機能の名前"
+        "message": "New Tab, New Window"
     },
     "extDescription": {
-        "message": "新しいタブは新しいウィンドウに開きます。",
-        "description": "拡張機能の説明"
+        "message": "新しいタブを新しいウィンドウに開きます。"
     },
     "optionsTitle": {
         "message": "New Tab, New Window の設定"
@@ -17,13 +15,13 @@
         "message": "標準"
     },
     "optionsNewWindowPositionParentLabel": {
-        "message": "親ウィンドウと同じ位置"
+        "message": "親ウィンドウと同じ"
     },
     "optionsTestButton": {
-        "message": "テストで新しいタブを開く"
+        "message": "テスト"
     },
     "optionsTestMessage": {
-        "message": "新しいタブが開きました"
+        "message": "新しいタブが開きました。"
     },
     "optionsTestCloseButton": {
         "message": "閉じる"
