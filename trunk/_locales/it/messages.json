@@ -1,11 +1,9 @@
 {
     "extName": {
-        "message": "New Tab, New Window",
-        "description": "Extension name."
+        "message": "New Tab, New Window"
     },
     "extDescription": {
-        "message": "Aprire una nuova scheda in una nuova finestra.",
-        "description": "Extension description."
+        "message": "Aprire ogni nuova scheda in una nuova finestra."
     },
     "optionsTitle": {
         "message": "New Tab, New Window Opzioni"
@@ -17,13 +15,13 @@
         "message": "Default"
     },
     "optionsNewWindowPositionParentLabel": {
-        "message": "Stessi alla posizione della finestra genitore"
+        "message": "Stesso alla finestra genitore"
     },
     "optionsTestButton": {
-        "message": "Aprire una nuova scheda per collaudo"
+        "message": "Collaudi"
     },
     "optionsTestMessage": {
-        "message": "Una nuova scheda si è aperta"
+        "message": "Una nuova scheda si è aperta."
     },
     "optionsTestCloseButton": {
         "message": "Chiudi"
