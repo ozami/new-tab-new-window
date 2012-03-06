@@ -12,7 +12,7 @@
         "message": "新しいウィンドウを開く位置"
     },
     "optionsNewWindowPositionDefaultLabel": {
-        "message": "標準"
+        "message": "標準（少しずらす）"
     },
     "optionsNewWindowPositionParentLabel": {
         "message": "親ウィンドウと同じ"
