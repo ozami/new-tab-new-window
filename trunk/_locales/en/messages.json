@@ -7,6 +7,9 @@
         "message": "Open every new tab in a new window.",
         "description": "Extension description."
     },
+    "extTranslator": {
+        "message": ""
+    },
     "optionsTitle": {
         "message": "New Tab, New Window Options"
     },
