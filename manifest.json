@@ -12,5 +12,5 @@
         "48": "img/icon48.png",
         "128": "img/icon128.png"
     }, 
-    "minimum_chrome_version": "10"
+    "minimum_chrome_version": "16"
 }
