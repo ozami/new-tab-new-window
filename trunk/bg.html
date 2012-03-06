@@ -9,7 +9,7 @@ chrome.tabs.onCreated.addListener(function(tab){
     if (tab.url == "about:blank"){
         return;
     }
-    chrome.tabs.getAllInWindow(tab.windowId, function(tabs){
+    chrome.tabs.query({windowId: tab.windowId}, function(tabs){
         if (tabs.length <= 1) {
             return;
         }
