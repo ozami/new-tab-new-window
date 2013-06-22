@@ -1,21 +1,19 @@
-function getOption(name){
-    var value = localStorage[name];
-    // Defaults
-    if (value == undefined){
-        value = {
-            newWindowsPosition: false
-        }[name];
-    }
-    // Convert type
-    value = {
-        newWindowsPosition: Number
-    }[name](value);
-    return value;
-}
+fillMessage();
 
-function setOption(name, value){
-    value = {
-        newWindowsPosition: Number
-    }[name](value);
-    localStorage[name] = "" + value;
+var inputs = document.querySelectorAll("input[name=newWindowsPosition]");
+for (var i = 0; i < inputs.length; ++i){
+    inputs[i].addEventListener("click", function(){
+        setOption(this.name, this.value);
+    });
 }
+getOption("newWindowsPosition", function(value){
+    for (var i = 0; i < inputs.length; ++i){
+        if (inputs[i].value == value){
+            inputs[i].checked = true;
+        }
+    }
+});
+// Setup the test button
+$("testBtn").addEventListener("click", function(){
+    window.open("options_test.html", "_blank");
+});

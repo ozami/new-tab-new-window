@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title class="message" message="optionsTitle"></title>
-  <style type="text/css">
+  <style>
 table {
     border-collapse: collapse;
     border-bottom: 1px solid #cccccc;
@@ -42,31 +42,9 @@ th {
     </form>
   </div>
 
-<script type="text/javascript" src="utils.js"></script>
-<script type="text/javascript" src="options.js"></script>
-<script type="text/javascript">
-
-(function(){
-    fillMessage();
-
-    var inputs = document.querySelectorAll("input[name=newWindowsPosition]");
-    for (var i = 0; i < inputs.length; ++i){
-        inputs[i].addEventListener("click", function(){
-            setOption(this.name, this.value);
-        });
-    }
-    var value = getOption("newWindowsPosition");
-    for (var i = 0; i < inputs.length; ++i){
-        if (inputs[i].value == value){
-            inputs[i].checked = true;
-        }
-    }
-    // Setup the test button
-    $("testBtn").addEventListener("click", function(){
-        window.open("options_test.html", "_blank");
-    });
-})();
-</script>
+<script src="lib/utils.js"></script>
+<script src="lib/option.js"></script>
+<script src="options.js"></script>
 
 </body>
 </html>
