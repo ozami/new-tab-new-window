@@ -6,7 +6,7 @@
         "message": "Aprire ogni nuova scheda in una nuova finestra."
     },
     "optionsTitle": {
-        "message": "Nuova Scheda, Nuova Finestra Opzioni"
+        "message": "Opzioni per Nuova Scheda, Nuova Finestra"
     },
     "optionsNewWindowPosition": {
         "message": "Posizione della nuova finestra"
@@ -15,13 +15,13 @@
         "message": "Default"
     },
     "optionsNewWindowPositionParentLabel": {
-        "message": "Stesso alla finestra genitore"
+        "message": "Lo stesso della finestra principale"
     },
     "optionsTestButton": {
-        "message": "Collaudi"
+        "message": "Test"
     },
     "optionsTestMessage": {
-        "message": "Una nuova scheda si è aperta."
+        "message": "La nuova scheda è stata aperta."
     },
     "optionsTestCloseButton": {
         "message": "Chiudi"
