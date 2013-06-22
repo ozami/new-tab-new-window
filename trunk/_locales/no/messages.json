@@ -3,7 +3,7 @@
         "message": "Ny Fane, Nytt Vindu"
     },
     "extDescription": {
-        "message": "Åpner alle nye faner i et nytt vindu."
+        "message": "Åpner en fane i et nytt vindu."
     },
     "extTranslator": {
         "message": "Norsk (bokmål) oversettelse av John Inge Røst"
@@ -18,10 +18,10 @@
         "message": "Standard"
     },
     "optionsNewWindowPositionParentLabel": {
-        "message": "Samme som orginalvinduet"
+        "message": "Samme som orginalvinduets plassering"
     },
     "optionsTestButton": {
-        "message": "Test"
+        "message": "Åpne en ny fane for test"
     },
     "optionsTestMessage": {
         "message": "En ny fane er åpnet."
