@@ -1,0 +1,34 @@
+{
+    "extName": {
+        "message": "New Tab, New Window",
+        "description": "Extension name."
+    },
+    "extDescription": {
+        "message": "Open every new tab in a new window.",
+        "description": "Extension description."
+    },
+    "extTranslator": {
+        "message": ""
+    },
+    "optionsTitle": {
+        "message": "New Tab, New Window Options"
+    },
+    "optionsNewWindowPosition": {
+        "message": "Position of new window"
+    },
+    "optionsNewWindowPositionDefaultLabel": {
+        "message": "Default (cascade)"
+    },
+    "optionsNewWindowPositionParentLabel": {
+        "message": "Same as the parent window"
+    },
+    "optionsTestButton": {
+        "message": "Test"
+    },
+    "optionsTestMessage": {
+        "message": "New tab opened."
+    },
+    "optionsTestCloseButton": {
+        "message": "Close"
+    }
+}
