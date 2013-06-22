@@ -5,6 +5,9 @@
     "extDescription": {
         "message": "Aprire ogni nuova scheda in una nuova finestra."
     },
+    "extTranslator": {
+        "message": "Giorgio"
+    },
     "optionsTitle": {
         "message": "Opzioni per Nuova Scheda, Nuova Finestra"
     },
