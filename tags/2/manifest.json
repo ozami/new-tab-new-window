@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "__MSG_extName__",
+    "version": "3.0",
+    "description": "__MSG_extDescription__",
+    "background": {
+        "scripts": ["lib/option.js", "bg.js"],
+        "persistent": false
+    },
+    "options_page": "options.html",
+    "permissions": [
+        "tabs",
+        "storage"
+    ], 
+    "default_locale": "en", 
+    "icons": {
+        "48": "img/icon48.png",
+        "128": "img/icon128.png"
+    }, 
+    "minimum_chrome_version": "22"
+}

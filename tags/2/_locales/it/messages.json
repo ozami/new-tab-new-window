@@ -1,0 +1,32 @@
+{
+    "extName": {
+        "message": "Nuova Scheda, Nuova Finestra"
+    },
+    "extDescription": {
+        "message": "Aprire ogni nuova scheda in una nuova finestra."
+    },
+    "extTranslator": {
+        "message": "Giorgio"
+    },
+    "optionsTitle": {
+        "message": "Opzioni per Nuova Scheda, Nuova Finestra"
+    },
+    "optionsNewWindowPosition": {
+        "message": "Posizione della nuova finestra"
+    },
+    "optionsNewWindowPositionDefaultLabel": {
+        "message": "Default"
+    },
+    "optionsNewWindowPositionParentLabel": {
+        "message": "Lo stesso della finestra principale"
+    },
+    "optionsTestButton": {
+        "message": "Test"
+    },
+    "optionsTestMessage": {
+        "message": "La nuova scheda è stata aperta."
+    },
+    "optionsTestCloseButton": {
+        "message": "Chiudi"
+    }
+}

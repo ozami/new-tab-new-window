@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title class="message" message="optionsTitle"></title>
+  <style>
+table {
+    border-collapse: collapse;
+    border-bottom: 1px solid #cccccc;
+}
+th, td {
+    border-top: 1px solid #cccccc;
+    text-align: left;
+    vertical-align: top;
+    padding: 0.5em 1em;
+}
+th {
+    background: #f3f3f3;
+    border-right: 1px solid #eeeeee;
+    font-weight: normal;
+}
+  </style>
+</head>
+<body style="background: #f0f0f0; line-height: 1.5; font-family: Helvetica, Arial, Meiryo;">
+  <div style="width: 32em; background: #ffffff; border: 2px solid #cccccc; border-radius: 5px; padding: 2em; margin: 2em auto;">
+    <h1 class="message" message="optionsTitle" style="background: url(img/icon48.png) no-repeat; min-height: 48px; padding: 0 0 0 63px; line-height: 48px; margin: 0 0 1em 0; font-size: 1.3em;"></h1>
+
+    <form>
+      <table style="width: 100%;">
+        <col style="width: 10em;" />
+        <tr>
+          <th class="message" message="optionsNewWindowPosition"></th>
+          <td>
+            <input type="radio" name="newWindowsPosition" value="0" id="newWindowsPositionDefault" /><label for="newWindowsPositionDefault" class="message" message="optionsNewWindowPositionDefaultLabel"></label><br />
+            <input type="radio" name="newWindowsPosition" value="1" id="newWindowsPositionParent" /><label for="newWindowsPositionParent" class="message" message="optionsNewWindowPositionParentLabel"></label>
+            <div style="font-size: 85%; margin-top: 0.5em;">
+              <button id="testBtn" class="message" message="optionsTestButton"></button>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+
+<script src="lib/utils.js"></script>
+<script src="lib/option.js"></script>
+<script src="options.js"></script>
+
+</body>
+</html>

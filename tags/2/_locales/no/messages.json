@@ -1,0 +1,32 @@
+{
+    "extName": {
+        "message": "Ny Fane, Nytt Vindu"
+    },
+    "extDescription": {
+        "message": "Åpner en fane i et nytt vindu."
+    },
+    "extTranslator": {
+        "message": "Norsk (bokmål) oversettelse av John Inge Røst"
+    },
+    "optionsTitle": {
+        "message": "Ny fane, Nytt Vindu Alternativer"
+    },
+    "optionsNewWindowPosition": {
+        "message": "Plassering av nytt vindu"
+    },
+    "optionsNewWindowPositionDefaultLabel": {
+        "message": "Standard"
+    },
+    "optionsNewWindowPositionParentLabel": {
+        "message": "Samme som orginalvinduets plassering"
+    },
+    "optionsTestButton": {
+        "message": "Åpne en ny fane for test"
+    },
+    "optionsTestMessage": {
+        "message": "En ny fane er åpnet."
+    },
+    "optionsTestCloseButton": {
+        "message": "Lukk"
+    }
+}

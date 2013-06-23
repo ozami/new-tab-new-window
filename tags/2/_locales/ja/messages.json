@@ -1,0 +1,29 @@
+{
+    "extName": {
+        "message": "New Tab, New Window"
+    },
+    "extDescription": {
+        "message": "新しいタブを新しいウィンドウに開きます。"
+    },
+    "optionsTitle": {
+        "message": "New Tab, New Window の設定"
+    },
+    "optionsNewWindowPosition": {
+        "message": "新しいウィンドウを開く位置"
+    },
+    "optionsNewWindowPositionDefaultLabel": {
+        "message": "標準（少しずらす）"
+    },
+    "optionsNewWindowPositionParentLabel": {
+        "message": "親ウィンドウと同じ"
+    },
+    "optionsTestButton": {
+        "message": "テスト"
+    },
+    "optionsTestMessage": {
+        "message": "新しいタブが開きました。"
+    },
+    "optionsTestCloseButton": {
+        "message": "閉じる"
+    }
+}
