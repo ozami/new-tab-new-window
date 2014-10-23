@@ -19,7 +19,11 @@ chrome.tabs.onCreated.addListener(function(tab){
                     createData.top = Math.max(0, curWindow.top);
                     createData.left = Math.max(0, curWindow.left);
                 }
-                chrome.windows.create(createData);
+                chrome.windows.create(createData, function(newWindow){
+                    chrome.windows.update(newWindow.id, {
+                        state: curWindow.state
+                    });
+                });
             });
         });
     });
