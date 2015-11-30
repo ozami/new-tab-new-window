@@ -17,6 +17,9 @@
     "optionsNewWindowPositionParentLabel": {
         "message": "親ウィンドウと同じ"
     },
+    "optionsNewWindowPositionMaximizeLabel": {
+        "message": "最大化する"
+    },
     "optionsTestButton": {
         "message": "テスト"
     },

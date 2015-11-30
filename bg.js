@@ -1,3 +1,7 @@
+const CASCADE = 0;
+const SAME_AS_PARENT = 1;
+const MAXIMIZE = 2;
+
 chrome.tabs.onCreated.addListener(function(tab){
     if (tab.index == 0){
         return;
@@ -10,8 +14,14 @@ chrome.tabs.onCreated.addListener(function(tab){
                 state: curWindow.state
             };
             // if the default window position was used, simply create
-            //  a new window and done.
-            if (!newWindowsPosition){
+            // a new window and done.
+            if (newWindowsPosition == CASCADE){
+                chrome.windows.create(createData);
+                return;
+            }
+            // always maximize new window
+            if (newWindowsPosition == MAXIMIZE){
+                createData.state = "maximized";
                 chrome.windows.create(createData);
                 return;
             }
