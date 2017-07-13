@@ -22,6 +22,9 @@
     "optionsNewWindowPositionParentLabel": {
         "message": "Same as the parent window"
     },
+    "optionsNewWindowPositionMaximizeLabel": {
+        "message": "Maximize"
+    },
     "optionsTestButton": {
         "message": "Test"
     },
