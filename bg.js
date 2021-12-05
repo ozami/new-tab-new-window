@@ -3,9 +3,26 @@ const SAME_AS_PARENT = 1;
 const MAXIMIZE = 2;
 
 chrome.tabs.onCreated.addListener(function(tab){
+    
+	// for when the user clicks the plus sign on the top to open a new tab
+	if (tab.pendingUrl == "chrome://newtab/") {
+	
+	   return;
+	
+	}
+	
+	// for when the user right clicks on a link and selects "open in new tab"		
+	if (tab.active == false) {
+	
+	   return;	
+	
+	}
+						
     if (tab.index == 0){
+	
         return;
-    }
+		
+    }	
     chrome.windows.get(tab.windowId, function(curWindow){
         getOption("newWindowsPosition", function(newWindowsPosition){
             var createData = {
