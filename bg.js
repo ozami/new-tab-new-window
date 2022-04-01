@@ -1,3 +1,5 @@
+import {getOption, setOption} from "./lib/option.js";
+
 const CASCADE = 0;
 const SAME_AS_PARENT = 1;
 const MAXIMIZE = 2;
@@ -50,14 +52,5 @@ chrome.tabs.onCreated.addListener(function(tab){
                 chrome.windows.create(createData);
             });
         });
-    });
-});
-
-chrome.runtime.onInstalled.addListener(function(){
-    if (localStorage.newWindowsPosition === undefined){
-        return;
-    }
-    setOption("newWindowsPosition", localStorage.newWindowsPosition, function(){
-        delete localStorage.newWindowsPosition;
     });
 });

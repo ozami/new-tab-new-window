@@ -1,3 +1,6 @@
+import {getOption, setOption} from "./lib/option.js";
+import {$, fillMessage} from "./lib/utils.js";
+
 fillMessage();
 
 var inputs = document.querySelectorAll("input[name=newWindowsPosition]");
