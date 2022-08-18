@@ -1,9 +1,16 @@
+import {getOption, setOption} from "./lib/option.js";
+
 const CASCADE = 0;
 const SAME_AS_PARENT = 1;
 const MAXIMIZE = 2;
 
+
+
 chrome.tabs.onCreated.addListener(function(tab){
-    
+console.log("url" + " " + tab.pendingUrl);
+console.log("active" + " " + tab.active);
+console.log("index" + " " + tab.index);
+
     /* forked from ozami, my code added below */
     
   	// for when the user clicks the plus sign on the top to open a new tab
@@ -20,7 +27,7 @@ chrome.tabs.onCreated.addListener(function(tab){
 	
 	}	
 	
-	// this was there from before. the very first tab to open a gets new window, so no need to force one.	  
+	// this was there from before. the very first tab to open a gets new window, so no need to force one.	
     if (tab.index == 0){
         return;
     }
@@ -68,14 +75,5 @@ chrome.tabs.onCreated.addListener(function(tab){
                 chrome.windows.create(createData);
             });
         });
-    });
-});
-
-chrome.runtime.onInstalled.addListener(function(){
-    if (localStorage.newWindowsPosition === undefined){
-        return;
-    }
-    setOption("newWindowsPosition", localStorage.newWindowsPosition, function(){
-        delete localStorage.newWindowsPosition;
     });
 });
